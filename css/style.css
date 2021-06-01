@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--p-Dark-Blue: hsl(217, 28%, 15%);
+	--p-Dark-Blue-main-bg: hsl(218, 28%, 13%);
+	--p-Dark-Blue-footer-bg: hsl(216, 53%, 9%);
+	--p-Dark-Blue-test-bg: hsl(219, 30%, 18%);
+	--a-Cyan-in-ctn-grt: hsl(176, 68%, 64%);
+	--a-blue-in-ctn-grit: hsl(198, 60%, 50%);
+	--a-Light-Red-error: hsl(0, 100%, 63%);
+	--n-White: hsl(0, 0%, 100%);
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.btn-ctn,
+header nav {
+	font-family: 'Raleway', sans-serif;
+}
