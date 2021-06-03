@@ -176,7 +176,7 @@
 		</section>
 
 		<!-- testimonial cards -->
-		<section>
+		<section class="tests-section">
 			<div class="container">
 				<div class="tests">
 					<!-- test card 1 -->
@@ -246,7 +246,7 @@
 		</section>
 
 		<!-- early access card -->
-		<section>
+		<section class="access-section">
 			<div class="container">
 				<div class="access-card">
 					<div class="access-header">
@@ -273,28 +273,33 @@
 		<!-- main footer -->
 		<footer>
 			<div class="container">
-				<div class="footer-cols">
-					<div class="footer-col">
-						<img src="./images/logo.svg" alt="footer logo" />
-						<p>
+				<div class="footer-flex">
+					<div class="col-1">
+						<img
+							src="./images/logo.svg"
+							alt="logo"
+							class="footer-logo"
+						/>
+						<div class="cols info">
 							<img src="./images/icon-location.svg" alt="icon-location" />
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua
-						</p>
-					</div>
-					<div class="footer-col">
-						<p>
-							<img
-								src="./images/icon-phone.svg"
-								alt="icon-phone"
-							/>+1-543-123-4567
-						</p>
-						<p>
+							<p class="cols-info">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua
+							</p>
+						</div>
+
+						<div class="cols phone">
+							<img src="./images/icon-phone.svg" alt="icon-phone" />
+							<p>+1-543-123-4567</p>
+						</div>
+
+						<div class="cols email">
 							<img src="./images/icon-email.svg" alt="icon-email" />
-							example@fylo.com
-						</p>
+							<p>example@huddle.com</p>
+						</div>
 					</div>
-					<div class="footer-col">
+
+					<div class="col-2">
 						<ul>
 							<li><a href="#">About Us</a></li>
 							<li><a href="#">Jobs</a></li>
@@ -302,19 +307,22 @@
 							<li><a href="#">Blog</a></li>
 						</ul>
 					</div>
-					<div class="footer-col">
+
+					<div class="col-3">
 						<ul>
 							<li><a href="#">Contact Us</a></li>
 							<li><a href="#">Terms</a></li>
 							<li><a href="#">Privacy</a></li>
 						</ul>
 					</div>
-					<div class="footer-col">
+
+					<div class="col-4">
 						<a href="#"><i class="fab fa-facebook"></i></a>
 						<a href="#"><i class="fab fa-twitter"></i></a>
-						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i> </a>
 					</div>
 				</div>
+			</div>
 			</div>
 		</footer>
 		<!-- 
