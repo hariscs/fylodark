@@ -50,9 +50,13 @@ img {
 }
 
 /* Buttons */
+button {
+	all: unset;
+}
 .btn {
 	display: inline-block;
 	padding: 0.8em 4em;
+	cursor: pointer;
 }
 
 .cta {
@@ -88,6 +92,13 @@ section {
 
 nav {
 	padding: 2em 0;
+	background: var(--p-Dark-Blue);
+}
+
+nav li a:focus,
+nav li a:hover {
+	font-weight: 700;
+	text-decoration: underline;
 }
 
 .navbar,
@@ -102,6 +113,11 @@ nav {
 }
 
 /* header */
+header {
+	background: url(../images/bg-curvy-desktop.svg) no-repeat, var(--p-Dark-Blue);
+	background-position: bottom;
+}
+
 .hero {
 	display: flex;
 	flex-direction: column;
@@ -280,6 +296,13 @@ nav {
 	flex-grow: 0;
 }
 
+.input-span {
+	display: block;
+	padding: 1em 4em;
+	text-align: left;
+	color: var(--a-Light-Red-error);
+}
+
 /* footer */
 
 footer {
@@ -316,6 +339,13 @@ footer img {
 	margin: 1em 0;
 }
 
+.col-2 a:hover,
+.col-2 a:focus,
+.col-3 a:hover,
+.col-3 a:focus {
+	font-weight: 700;
+}
+
 /* col-4 */
 
 .col-4 {
@@ -348,6 +378,7 @@ footer img {
 	}
 
 	/* section hero */
+
 	.hero {
 		align-items: center;
 		max-width: 80%;
@@ -432,15 +463,29 @@ footer img {
 	}
 
 	/* footer */
+
 	.footer-flex {
 		display: flex;
+		align-items: center;
 		justify-content: space-between;
+		flex-wrap: wrap;
 	}
 
-	.col-1 {
-		display: flex;
-		align-items: center;
-		gap: 2em;
+	.col-4 {
+		align-self: start;
+	}
+
+	.footer-text {
+		text-align: right;
+	}
+
+	.footer-logo {
+		max-width: 200px;
+		margin-bottom: 1em;
+	}
+
+	.cols-info {
+		max-width: 40ch;
 	}
 }
 
